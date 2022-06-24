@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            // ブラウザ言語の取得
+           function browserLanguage() {
+              try {
+                return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+              }
+              catch(e) {
+                return undefined;
+              }
+            }
+            // ブラウザの言語が日本語の場合、日本語サイトへ、それ以外の場合英語サイトへリダイレクト
+            if (browserLanguage().indexOf("ja") != -1) {
+              location.replace("jp");
+            }
+            if (browserLanguage().indexOf("en-us") != -1) {
+              location.replace("en-us");
+            }
+            if (browserLanguage().indexOf("en-uk") != -1) {
+              location.replace("en-uk");
+            }
+            if (browserLanguage().indexOf("zh") != -1) {
+              location.replace("cn");
+            }
+            if (browserLanguage().indexOf("zh") != -1) {
+              location.replace("tw");
+            }
+            if (browserLanguage().indexOf("ko") != -1) {
+              location.replace("kr");
+            }
+            if (browserLanguage().indexOf("ru") != -1) {
+              location.replace("ru");
+            }
+            if (browserLanguage().indexOf("ar") != -1) {
+              location.replace("ar");
+            }
+            if (browserLanguage().indexOf("fr") != -1) {
+              location.replace("fr");
+            }
+        </script>
+    </head>
+</html>
