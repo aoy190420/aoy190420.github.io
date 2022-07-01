@@ -1,15 +1,58 @@
-<script type="text/javascript">
-            // ブラウザ言語の取得
-           function browserLanguage() {
-              try {
-                return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
-              }
-              catch(e) {
-                return undefined;
-              }
-            }
-            // ブラウザの言語が日本語の場合、日本語サイトへ、それ以外の場合英語サイトへリダイレクト
-            if (browserLanguage().indexOf("ja") != -1) {
-              location.replace("morning-test-schedule");
-            }
-        </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/beercss@2.0.19/dist/cdn/beer.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/beercss@2.0.19/dist/cdn/beer.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@0.0.10/dist/cdn/material-dynamic-colors.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // ブラウザ言語の取得
+       function browserLanguage() {
+          try {
+            return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+          }
+          catch(e) {
+            return undefined;
+          }
+        }
+        // ブラウザの言語が日本語の場合、日本語サイトへ、それ以外の場合英語サイトへリダイレクト
+        if (browserLanguage().indexOf("ja") != -1) {
+          location.replace("morning-test-schedule");
+        }
+    </script>
+</head>
+<body class="container min">
+    <h1 style="font-size: 36px"><B>お使いの言語またはブラウザ環境ではページを表示できません</B></h1>
+    <hr>
+    <p lang="en">The page cannot be displayed in your language or browser environment.</p>
+    <p lang="zh-cn">该页面无法以您的语言或浏览器环境显示</p>
+    <p lang="zh-tw">該頁面無法以您的語言或瀏覽器環境顯示</p>
+    <p lang="ko-kr">언어 또는 브라우저 환경에서는 페이지를 볼 수 없습니다.</p>
+    <p lang="ru-ru">Страница не может быть отображена на вашем языке или в среде браузера</p>
+    <p lang="ar-sa" dir="rtl">لا يمكن عرض الصفحة بلغتك أو في بيئة المتصفح</p>
+    <p lang="fr">La page ne peut pas être affichée dans votre langue ou votre environnement de navigation</p>
+    <br>
+    <br>
+    <center>
+        <button onclick="location.href='https://aoy190420.github.io'" class="extra flat round">
+            <i>home</i>
+            <span>各言語のトップページに移動</span>
+        </button>
+        <br>
+        <p lang="en">Move to the top page of each language</p>
+        <p lang="zh-cn">移动到每种语言的首页</p>
+        <p lang="zh-tw">移動到每種語言的首頁</p>
+        <p lang="ko-kr">각 언어의 톱 페이지로 이동</p>
+        <p lang="ru-ru">Перейти на верхнюю страницу каждого языка</p>
+        <p lang="ar-sa" dir="rtl">انتقل إلى الصفحة العلوية لكل لغة</p>
+        <p lang="fr">Accéder à la page d'accueil de chaque langue</p>
+        <br>
+        <br>
+    </center>
+</body>
+</html>
