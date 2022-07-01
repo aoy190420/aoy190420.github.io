@@ -1,0 +1,15 @@
+<script type="text/javascript">
+            // ブラウザ言語の取得
+           function browserLanguage() {
+              try {
+                return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+              }
+              catch(e) {
+                return undefined;
+              }
+            }
+            // ブラウザの言語が日本語の場合、日本語サイトへ、それ以外の場合英語サイトへリダイレクト
+            if (browserLanguage().indexOf("ja") != -1) {
+              location.replace("morning-test-schedule");
+            }
+        </script>
