@@ -2,30 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap');
 @font-face {
   font-family: "Segoe Sans Serif";
-  src:
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/ec12d6d05437a5eb2c5a.woff") format("woff"),
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/dc5de3f434e7711d6275.ttf") format("truetype");
+  src: url("https://aoy190420.github.io/web-font/Segoe Sans Serif/TTF/SegoeSansSerifRegular.ttf");
   ont-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Segoe Sans Serif";
-  src:
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/a924717fe102c8481053.woff") format("woff"),
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/0f5cc00059a4e27bef03.ttf") format("truetype");
+  src: url("https://aoy190420.github.io/web-font/Segoe Sans Serif/TTF/SegoeSansSerifSemibold.ttf");
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: "Segoe Sans Serif";
-  src:
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/bf7c89186613b23adfbd.woff") format("woff"),
-  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/4f8bd099374af316ba59.ttf") format("truetype");
+  src: url("https://aoy190420.github.io/web-font/Segoe Sans Serif/TTF/SegoeSansSerifBold.ttf");
   font-weight: 700;
   font-display: swap;
-}
+} */
 body,html,table,p {
   font-family: "Segoe Sans Serif","BIZ UDPGothic","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
   font-weight: 400;
