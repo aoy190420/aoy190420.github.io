@@ -1,30 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+Arabic:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans+Text:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
-  --primary: #0061a6;--on-primary: #ffffff;--primary-container: #d0e4ff;--on-primary-container: #001d36;--secondary: #535f70;--on-secondary: #ffffff;--secondary-container: #d6e3f7;--on-secondary-container: #101c2b;--tertiary: #6b5778;--on-tertiary: #ffffff;--tertiary-container: #f3daff;--on-tertiary-container: #251432;--error: #ba1b1b;--error-container: #ffdad4;--on-error: #ffffff;--on-error-container: #410001;--background: #fdfcff;--on-background: #1b1b1b;--surface: #fdfcff;--on-surface: #1b1b1b;--surface-variant: #dfe2eb;--on-surface-variant: #42474e;--outline: #73777f;--inverse-on-surface: #f1f0f4;--inverse-surface: #2f3033;--inverse-primary: #9ccaff;--shadow: #000000;--active: rgba(0,0,0,.1);--mode: light;
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
+@font-face {
+  font-family: "Segoe Sans Serif";
+  src:
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/ec12d6d05437a5eb2c5a.woff") format("woff"),
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/dc5de3f434e7711d6275.ttf") format("truetype");
+  ont-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
-body,span,div,html,table,html,p {
-  font-family: "Work Sans","Roboto","Noto Sans JP","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic","Noto Sans CJK JP",sans-serif;
-  font-family: 400;
+@font-face {
+  font-family: "Segoe Sans Serif";
+  src:
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/a924717fe102c8481053.woff") format("woff"),
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/0f5cc00059a4e27bef03.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
 }
-B,h1,h2,h3,h4,h5,h6,strong,thead {
-  font-family: "Work Sans","Roboto","Noto Sans JP","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic","Noto Sans CJK JP",sans-serif;
+@font-face {
+  font-family: "Segoe Sans Serif";
+  src:
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/bf7c89186613b23adfbd.woff") format("woff"),
+  url("https://unlocked.microsoft.com/wp-content/themes/unlocked-theme/dist/4f8bd099374af316ba59.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
 }
-h1 {
-    font-size: 36px;
+body,html,table,p {
+  font-family: "Segoe Sans Serif","BIZ UDPGothic",sans-serif;
+  font-weight: 400;
 }
-h2 {
-    font-size: 32px;
+B,strong,thead {
+  font-family: "Segoe Sans Serif","BIZ UDPGothic",sans-serif;
+  font-weight: 600;
 }
-h3 {
-    font-size: 28px;
-}
-h4 {
-    font-size: 24px;
-}
-h5 {
-    font-size: 20px;
-}
-h6 {
-    font-size: 16px;
+/*/ color /*/
+body {
+  --primary:#0061a6;
+  --on-primary:#ffffff;
+  --primary-container:#d0e4ff;
+  --on-primary-container:#001d36;
+  --secondary:#535f70;
+  --on-secondary:#ffffff;
+  --secondary-container:#d6e3f7;
+  --on-secondary-container:#101c2b;
+  --tertiary:#6b5778;
+  --on-tertiary:#ffffff;
+  --tertiary-container:#f3daff;
+  --on-tertiary-container:#251432;
+  --error:#ba1b1b;
+  --error-container:#ffdad4;
+  --on-error:#ffffff;
+  --on-error-container:#410001;
+  --background:#fdfcff;
+  --on-background:#1b1b1b;
+  --surface:#fdfcff;
+  --on-surface:#1b1b1b;
+  --surface-variant:#dfe2eb;
+  --on-surface-variant:#42474e;
+  --outline:#73777f;
+  --inverse-on-surface:#f1f0f4;
+  --inverse-surface:#2f3033;
+  --inverse-primary:#9ccaff;
+  --shadow:#000000;
 }
