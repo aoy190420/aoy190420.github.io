@@ -1,31 +1,19 @@
-/* バージョン1.2（"unlocked.microsoft.com"が削除された後にフォントを別のものに代替する予定です） */
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap');
 @font-face {
-  font-family: "Segoe Sans Serif";
-  src: url("web-font/Segoe Sans Serif/TTF/SegoeSansSerifRegular.ttf");
-  ont-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Segoe Sans Serif";
-  src: url("web-font/Segoe Sans Serif/TTF/SegoeSansSerifSemibold.ttf");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-}
-/* @font-face {
-  font-family: "Segoe Sans Serif";
-  src: url("web-font/Segoe Sans Serif/TTF/SegoeSansSerifBold.ttf");
+  font-family: "コーポレート・ロゴ ver2";
+  src: url('https://aoy190420.github.io/web-font/corporate/logo/Woff2/Corporate-Logo-Bold-ver2.woff2');
   font-weight: 700;
-  font-display: swap;
-} */
-body,html,table,p,a,div,span {
-  font-family: "Segoe Sans Serif","BIZ UDPGothic","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
+}
+@font-face {
+  font-family: "コーポレート・ロゴ ver2";
+  src: url('https://aoy190420.github.io/web-font/corporate/logo/Woff2/Corporate-Logo-Medium-ver2.woff2');
   font-weight: 400;
 }
-B,strong,thead,h1,h2,h3,h4,h5,h6 {
-  font-family: "Segoe Sans Serif","BIZ UDPGothic","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
+* {
+  font-family: "コーポレート・ロゴ ver2",sans-serif;
+  font-weight: 400;
+}
+B,strong,thead,h1,h2,h3,h4,h5,h6,.bold {
+  font-family: "コーポレート・ロゴ ver2",sans-serif;
   font-weight: 700;
 }
 /*/ color /*/
