@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans+Text:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: "F+Rodin";
+    src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-M.woff2');
+    width: 400;
+}
+@font-face {
+    font-family: "F+Rodin";
+    src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-DB.woff2');
+    width: 700;
+}
 h1 {
     font-size: 48px;
 }
@@ -18,11 +28,11 @@ h6 {
     font-size: 10px;
 }
 *,input,div,span,select,body,html,nav,button,label,option,#font,.container {
-    font-family: "Google Sans Text","M Plus 2","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
+    font-family: 'F+Rodin',"Google Sans Text","M Plus 2","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
     font-weight: 400;
 }
 B,strong,thead,h1,h2,h3,h4,h5,h6,.bold {
-    font-family: "Google Sans","M Plus 2","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
+    font-family: 'F+Rodin',"Google Sans","M Plus 2","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans Arabic",sans-serif;
     font-weight: 700;
 }
 body {
